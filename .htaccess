@@ -12,6 +12,10 @@ Redirect 301 / http://www.domain.com/subfolder/
 #Redirect a sub folder to another site
 Redirect 301 /subfolder http://www.domain.com/
 
+
+#Redirect a sub folder to another site
+Redirect  /invite  https://domain.com/
+
 #This will redirect any file with the .html extension to use the same filename but use the .php extension instead.
 RedirectMatch 301 (.*)\.html$ http://www.domain.com$1.php
 
