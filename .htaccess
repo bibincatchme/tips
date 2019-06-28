@@ -122,3 +122,8 @@ RewriteEngine On
 RewriteCond %{REQUEST_URI}/ blog
 RewriteRule ^(.*) http://www.somewhere.com/%{REQUEST_URI} [R=302,NC]
 RewriteRule ^(.*) http://www.somewhere.com/blog/%{REQUEST_URI} [R=302,NC]
+
+
+
+# Disable directory browsing
+Options -Indexes
